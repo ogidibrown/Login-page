@@ -34,7 +34,7 @@ const [Errors, setErrors]= useState({})
     <form className='login-form' onSubmit={handleSubmit}>
             <img src={Image} alt='none'/>
             <h1 >Welcome</h1>
-            <span>I am joking with your life </span>
+            <span>Get Your Best Experience here </span>
           
             <input name='email' value={values.email} type='email' onChange={handleChange} className='inputs' placeholder='Username'/>
             {Errors.email&&<span style={{color:"red"}}>{Errors.email}</span>}
